@@ -1,0 +1,95 @@
+main {
+    /*Alinhando conteudo no centro da tela*/
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /*Ajustando Posicionamento*/
+    display: flex;
+    flex-direction: column;
+    /*Definindo cor de back e front da div*/
+    background: rgb(0, 0, 0);
+    color: white;
+    /*Definindo tamanho da div*/
+    width: 400px;
+    height: 600px;
+    /*Alinhando elementos no centro*/
+    align-items: center;
+    justify-content: space-evenly;
+    /*Incluindo borda e sombra na div*/
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.titulo {
+    /*Alinhando no centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Definindo fontes*/
+    font: bold 2.5rem serif;
+    /*Incluindo borda no titulo*/
+    border-bottom: solid 5px white;
+    /*Defrinindo expacamento abaixo do titulo*/
+    margin-bottom: 20px;
+}
+
+.input {
+    /*Alinhando os inputs*/
+    display: flex;
+    align-items: center;
+    /*Justificando o input com espaco entre o label e input*/
+    justify-content: space-between;
+    /*Definindo tamanho padrao para os inputs*/
+    width: 300px;
+    height: 50px;
+}
+
+.input input {
+    /*definindo o tamanho dos inputs*/
+    width: 200px;
+    height: 50px;
+    /*Definindo fonte e alinhamento do texto nos inputs*/
+    font: bold 1.5rem serif;
+    text-align: center;
+}
+
+.input label {
+    /*Definindo tamanho da fonte nos labels*/
+    font: bold 1.5rem serif;
+}
+
+.button {
+    /*definindo tamanho*/
+    width: 300px;
+    height: 40px;
+    /*definindo fonte e cores*/
+    font: bold 1.2rem serif;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /*Alterado a borda do botao*/
+    border-radius: 5px;
+}
+
+.result {
+    /*Definindo posicionamento da div de resultado*/
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    /*Definindo tamanho da div de resultado*/
+    width: 300px;
+    height: 150px;
+    /*Definindo borda e fonte da div de resultado*/
+    border-radius: 5px;
+    font: bold 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    /*Fazendo a box respeitar o tamanho das bordas*/
+    box-sizing: border-box;
+}
